@@ -39,12 +39,14 @@ const App = () => {
           <div className="container">
             {movies.map(  (movie) => (
                 <MoviesCard movie = {movie } />
-                
+
             ))}
           </div>
         ) : (
           <div className="empty">
+
             <h2>No movies found</h2>
+          
           </div>
         )}
       </div>
