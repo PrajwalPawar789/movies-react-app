@@ -39,8 +39,6 @@ const App = () => {
           <div className="container">
             {movies.map(  (movie) => (
                 <MoviesCard movie = {movie } />
-                
-
             ))}
           </div>
 
