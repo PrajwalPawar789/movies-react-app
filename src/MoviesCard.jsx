@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {useState, useEffect} from 'react';
 const MovieCard = ({movie}) => {
     return (
         <div className="movie">
